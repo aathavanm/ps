@@ -1,6 +1,5 @@
 function main()
 {
-    Install-Module RemoteDesktop
     Add-WindowsFeature -Name RDS-Licensing, RDS-RD-Server -IncludeManagementTolos
 
     $licenseServer='localhost'
